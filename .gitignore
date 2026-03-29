@@ -1,1 +1,8 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# Project management (local only)
+CLAUDE.md
+Project/
+start_webserver.sh
