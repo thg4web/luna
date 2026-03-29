@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive color geological maps of the near side of the Moon — USGS Geologic Atlas of the Moon, 44 quadrangles at 1:1,000,000 scale.">
+  <title>USGS Geologic Atlas of the Moon — Near Side Quadrangles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="starfield" aria-hidden="true"></canvas>
+
+  <header>
+    <div class="header-content">
+      <div class="header-badge">USGS &middot; NASA &middot; Apollo Era</div>
+      <h1>Geologic Atlas of the <span>Moon</span></h1>
+      <p class="subtitle">Near Side &mdash; 44 Quadrangles &middot; 1:1,000,000 Scale &middot; Color Geological Maps</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="map-section" aria-label="Lunar quadrangle selection map">
+      <div class="map-container">
+        <div class="map-wrapper">
+          <img
+            id="moon-map"
+            src="index_map_of_near_side_of_the_moon-LAC.jpg"
+            alt="Index map of the near side of the Moon divided into 44 geological quadrangles. Click a quadrant to view its geological map."
+            usemap="#image-map"
+          >
+          <canvas id="map-overlay" aria-hidden="true"></canvas>
+        </div>
+        <p id="quad-label" class="quad-label" aria-live="polite" aria-atomic="true"></p>
+      </div>
+      <p class="map-instructions">Hover to identify &middot; Click to explore</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Geological maps from the
+      <a href="https://www.lpi.usra.edu/resources/mapcatalog/usgs/" target="_blank" rel="noopener noreferrer">USGS Geologic Atlas of the Moon</a>,
+      produced 1960s&ndash;1970s in support of the Apollo program.
+      Hosted by the Lunar and Planetary Institute.
+    </p>
+  </footer>
+
+  <!-- Quadrangle detail modal -->
+  <div id="quad-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close quadrangle view">&times;</button>
+      <h2 id="modal-title"></h2>
+      <div class="modal-image-wrap">
+        <img id="modal-img" src="" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Image map — coords keyed to natural image dimensions -->
+  <map name="image-map">
+    <area data-name="J. Herschel"        alt="J. Herschel quadrangle"        title="J. Herschel"        href="j_herschel_quad_color.jpg"         coords="431,230,540,133,646,134,603,226"           shape="poly">
+    <area data-name="Plato"              alt="Plato quadrangle"              title="Plato"              href="plato_quad_color.jpg"               coords="605,229,649,132,787,134,811,228"           shape="poly">
+    <area data-name="Aristoteles"        alt="Aristoteles quadrangle"        title="Aristoteles"        href="aristoteles_quad_color.jpg"         coords="810,228,788,133,912,132,999,226"           shape="poly">
+    <area data-name="Rumker"             alt="Rumker quadrangle"             title="Rumker"             href="rumker_quad_color.jpg"              coords="285,360,380,230,496,229,423,360"           shape="poly">
+    <area data-name="Sinus Iridium"      alt="Sinus Iridium quadrangle"      title="Sinus Iridium"      href="sinus_iridium_quad_color.jpg"        coords="426,362,495,229,637,230,610,360"           shape="poly">
+    <area data-name="Cassini"            alt="Cassini quadrangle"            title="Cassini"            href="cassini_quad_color.jpg"             coords="614,358,638,231,811,230,829,360"           shape="poly">
+    <area data-name="Eudoxus"            alt="Eudoxus quadrangle"            title="Eudoxus"            href="eudoxus_quad_color.jpg"             coords="833,358,814,231,968,229,1025,354"          shape="poly">
+    <area data-name="Geminus"            alt="Geminus quadrangle"            title="Geminus"            href="geminus_quad_color.jpg"             coords="978,229,1034,354,1173,353,1082,227"        shape="poly">
+    <area data-name="Seleucus"           alt="Seleucus quadrangle"           title="Seleucus"           href="seleucus_quad_color.jpg"            coords="197,504,256,360,337,362,291,506"           shape="poly">
+    <area data-name="Aristarchus"        alt="Aristarchus quadrangle"        title="Aristarchus"        href="aristarchus_quad_color.jpg"         coords="300,505,344,364,475,363,447,504"           shape="poly">
+    <area data-name="Timocharis"         alt="Timocharis quadrangle"         title="Timocharis"         href="timocharis_quad_color.jpg"          coords="454,505,484,364,646,363,635,504"           shape="poly">
+    <area data-name="Montes Apenninus"   alt="Montes Apenninus quadrangle"   title="Montes Apenninus"   href="montes_apenninus_quad_color.jpg"    coords="642,504,654,363,826,363,837,504"           shape="poly">
+    <area data-name="Mare Serenitatis"   alt="Mare Serenitatis quadrangle"   title="Mare Serenitatis"   href="mare_serenitatis_quad_color.jpg"    coords="833,363,995,360,1026,502,844,502"          shape="poly">
+    <area data-name="Macrobius"          alt="Macrobius quadrangle"          title="Macrobius"          href="macrobius_quad_color.jpg"           coords="1003,362,1035,504,1182,504,1131,359"       shape="poly">
+    <area data-name="Cleomedes"          alt="Cleomedes quadrangle"          title="Cleomedes"          href="cleomedes_quad_color.jpg"           coords="1137,360,1189,505,1284,505,1221,358"       shape="poly">
+    <area data-name="Hevelius"           alt="Hevelius quadrangle"           title="Hevelius"           href="hevelius_quad_color.jpg"            coords="196,513,291,511,273,671,173,672"           shape="poly">
+    <area data-name="Kepler"             alt="Kepler quadrangle"             title="Kepler"             href="kepler_quad_color.jpg"              coords="298,511,283,670,434,669,442,510"           shape="poly">
+    <area data-name="Copernicus"         alt="Copernicus quadrangle"         title="Copernicus"         href="copernicus_quad_color.jpg"          coords="457,513,445,669,631,669,633,510"           shape="poly">
+    <area data-name="Mare Vaporum"       alt="Mare Vaporum quadrangle"       title="Mare Vaporum"       href="mare_vaporum_quad_color.jpg"        coords="642,513,642,670,843,669,835,511"           shape="poly">
+    <area data-name="Julius Caesar"      alt="Julius Caesar quadrangle"      title="Julius Caesar"      href="julius_caesar_quad_color.jpg"       coords="846,511,853,671,1041,669,1028,511"         shape="poly">
+    <area data-name="Taruntius"          alt="Taruntius quadrangle"          title="Taruntius"          href="taruntius_quad_color.jpg"           coords="1037,513,1050,667,1200,670,1180,510"       shape="poly">
+    <area data-name="Mare Undarum"       alt="Mare Undarum quadrangle"       title="Mare Undarum"       href="mare_undarum_quad_color.jpg"        coords="1189,511,1210,667,1304,669,1281,509"       shape="poly">
+    <area data-name="Grimaldi"           alt="Grimaldi quadrangle"           title="Grimaldi"           href="grimaldi_quad_color.jpg"            coords="177,680,197,836,292,835,274,679"           shape="poly">
+    <area data-name="Letronne"           alt="Letronne quadrangle"           title="Letronne"           href="letronne_quad_color.jpg"            coords="283,681,431,679,445,837,301,836"           shape="poly">
+    <area data-name="Montes Riphaeus"    alt="Montes Riphaeus quadrangle"    title="Montes Riphaeus"    href="riphaeus_mountains_quad_color.jpg"  coords="444,679,631,680,637,835,458,836"           shape="poly">
+    <area data-name="Ptolemaeus"         alt="Ptolemaeus quadrangle"         title="Ptolemaeus"         href="ptolemaeus_quad_color.jpg"          coords="641,680,840,679,838,836,644,836"           shape="poly">
+    <area data-name="Theophilus"         alt="Theophilus quadrangle"         title="Theophilus"         href="theophilus_quad_color.jpg"          coords="853,677,1040,679,1027,835,849,835"         shape="poly">
+    <area data-name="Colombo"            alt="Colombo quadrangle"            title="Colombo"            href="colombo_quad_color.jpg"             coords="1051,677,1198,677,1182,835,1041,835"       shape="poly">
+    <area data-name="Langrenus"          alt="Langrenus quadrangle"          title="Langrenus"          href="langrenus_quad_color.jpg"           coords="1211,677,1303,679,1287,837,1192,833"       shape="poly">
+    <area data-name="Byrgius"            alt="Byrgius quadrangle"            title="Byrgius"            href="byrgius_quad_color.jpg"             coords="199,846,290,844,339,984,249,986"           shape="poly">
+    <area data-name="Mare Humorum"       alt="Mare Humorum quadrangle"       title="Mare Humorum"       href="mare_humorum_quad_color.jpg"        coords="304,845,445,845,477,983,348,984"           shape="poly">
+    <area data-name="Pitatus"            alt="Pitatus quadrangle"            title="Pitatus"            href="pitatus_quad_color.jpg"             coords="458,842,636,842,646,983,486,984"           shape="poly">
+    <area data-name="Purbach"            alt="Purbach quadrangle"            title="Purbach"            href="purbach_quad_color.jpg"             coords="646,842,837,842,826,984,656,982"           shape="poly">
+    <area data-name="Rupes Altai"        alt="Rupes Altai quadrangle"        title="Rupes Altai"        href="rupes_altai_quad_color.jpg"         coords="847,844,1028,844,998,984,835,983"          shape="poly">
+    <area data-name="Fracastorius"       alt="Fracastorius quadrangle"       title="Fracastorius"       href="fracastorius_quad_color.jpg"        coords="1039,844,1182,842,1134,984,1009,984"       shape="poly">
+    <area data-name="Petavius"           alt="Petavius quadrangle"           title="Petavius"           href="petavius_quad_color.jpg"            coords="1191,845,1281,842,1225,984,1146,982"       shape="poly">
+    <area data-name="Schickard"          alt="Schickard quadrangle"          title="Schickard"          href="schickard_quad_color.jpg"           coords="293,992,422,991,486,1115,380,1116"         shape="poly">
+    <area data-name="Wilhelm"            alt="Wilhelm quadrangle"            title="Wilhelm"            href="wilhelm_quad_color.jpg"             coords="433,992,607,989,632,1115,500,1116"         shape="poly">
+    <area data-name="Tycho"              alt="Tycho quadrangle"              title="Tycho"              href="tycho_quad_color.jpg"               coords="615,992,825,991,810,1115,642,1115"         shape="poly">
+    <area data-name="Maurolycus"         alt="Maurolycus quadrangle"         title="Maurolycus"         href="maurolycus_quad_color.jpg"          coords="837,992,1030,989,970,1115,820,1115"        shape="poly">
+    <area data-name="Rheita"             alt="Rheita quadrangle"             title="Rheita"             href="rheita_quad_color.jpg"              coords="1036,989,1173,989,1088,1113,980,1113"      shape="poly">
+    <area data-name="Schiller"           alt="Schiller quadrangle"           title="Schiller"           href="schiller_quad_color.jpg"            coords="431,1122,600,1122,645,1216,534,1216"       shape="poly">
+    <area data-name="Clavius"            alt="Clavius quadrangle"            title="Clavius"            href="clavius_quad_color.jpg"             coords="608,1124,806,1122,785,1212,654,1214"       shape="poly">
+    <area data-name="Hommel"             alt="Hommel quadrangle"             title="Hommel"             href="hommel_quad_color.jpg"              coords="816,1122,1000,1121,917,1213,793,1214"      shape="poly">
+  </map>
+
+  <script src="moon-map.js"></script>
+</body>
+</html>

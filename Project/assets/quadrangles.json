@@ -1,0 +1,454 @@
+[
+  {
+    "_meta": {
+      "source_lac_numbers": "Verified from lac_reference_from_LPI.pdf (The Lunar Cartographic Dossier, Defense Mapping Agency / NASA-CR 1464000, 1973)",
+      "descriptions_status": "DRAFT — populated by Dr. Vasquez from lunar geology knowledge. Pending user review.",
+      "naming_notes": [
+        "LAC-24 is listed as 'Sinus Iridum' in the LAC reference. IAU official name is 'Sinus Iridium'. Display name uses IAU; filename normalized to sinus_iridium_quad_color.jpg.",
+        "LAC-76 is listed as 'Montes Riphaeus' in the LAC reference. Current display name is 'Riphaeus Mountains' — recommend aligning to 'Montes Riphaeus'. Flagged for Richard's decision.",
+        "LAC-24 filename was sinus_iridum_quad_color.jpg — renamed to sinus_iridium_quad_color.jpg for normalization.",
+        "rupes_Altai_quad_color.jpg renamed to rupes_altai_quad_color.jpg (case normalization)."
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "name": "J. Herschel",
+    "lac_number": "LAC-11",
+    "lac_edition": "1st Ed. Mar 1967",
+    "image_file": "j_herschel_quad_color.jpg",
+    "region_type": "Northern highlands",
+    "notable_features": ["J. Herschel crater", "Mare Frigoris (southern margin)"],
+    "description": "A northern highland region near the lunar limb. Dominated by the ancient, heavily degraded J. Herschel crater (~165 km), one of the largest eroded impact structures in this zone. The southern margin touches the eastern extent of Mare Frigoris."
+  },
+  {
+    "id": 2,
+    "name": "Plato",
+    "lac_number": "LAC-12",
+    "lac_edition": "1st Ed. Jan 1967",
+    "image_file": "plato_quad_color.jpg",
+    "region_type": "Mare/highland boundary",
+    "notable_features": ["Plato crater", "Montes Alpes", "Mare Imbrium (northern edge)"],
+    "description": "Features the iconic Plato crater (~101 km), a large walled plain whose floor is flooded with unusually dark mare basalt, making it one of the most visually distinctive craters on the near side. Located on the northern rim of Mare Imbrium, flanked by the Montes Alpes."
+  },
+  {
+    "id": 3,
+    "name": "Aristoteles",
+    "lac_number": "LAC-13",
+    "lac_edition": "1st Ed. Jul 1967",
+    "image_file": "aristoteles_quad_color.jpg",
+    "region_type": "Northern highlands",
+    "notable_features": ["Aristoteles crater", "Eudoxus crater (western margin)", "Mare Frigoris"],
+    "description": "Northern highland terrain between Mare Frigoris and Mare Serenitatis. Features Aristoteles crater (~87 km), a well-preserved impact structure with terraced walls and a hummocky floor. The paired presence of Aristoteles and Eudoxus makes this a visually prominent highland region."
+  },
+  {
+    "id": 4,
+    "name": "Rumker",
+    "lac_number": "LAC-23",
+    "lac_edition": "1st Ed. Feb 1967",
+    "image_file": "rumker_quad_color.jpg",
+    "region_type": "Oceanus Procellarum — volcanic",
+    "notable_features": ["Mons Rümker", "Oceanus Procellarum"],
+    "description": "Features Mons Rümker, a large volcanic dome complex (~70 km across) rising from the basalt plains of northern Oceanus Procellarum. One of the most prominent volcanic constructs on the Moon — a cluster of coalesced lava domes rather than a single edifice. A scientifically important site for understanding lunar volcanism."
+  },
+  {
+    "id": 5,
+    "name": "Sinus Iridium",
+    "lac_number": "LAC-24",
+    "lac_edition": "1st Ed. Sep 1966",
+    "image_file": "sinus_iridium_quad_color.jpg",
+    "region_type": "Mare basin — flooded impact",
+    "notable_features": ["Sinus Iridium", "Montes Jura", "Cape Heraclides", "Cape Laplace"],
+    "description": "'Bay of Rainbows' — a large pre-Imbrian impact crater (~236 km) whose floor was completely flooded with mare basalt, leaving only the southern arc of its rim as the Montes Jura mountain range. The two prominent headlands, Cape Heraclides and Cape Laplace, frame the open bay where it meets Mare Imbrium. Note: LAC reference uses the spelling 'Sinus Iridum'; IAU-official spelling is 'Sinus Iridium'."
+  },
+  {
+    "id": 6,
+    "name": "Cassini",
+    "lac_number": "LAC-25",
+    "lac_edition": "1st Ed. Sep 1966",
+    "image_file": "cassini_quad_color.jpg",
+    "region_type": "Highland — degraded crater",
+    "notable_features": ["Cassini crater", "Cassini A", "Cassini B"],
+    "description": "Central northern region between Mare Imbrium and Mare Serenitatis. Features Cassini crater (~57 km), an ancient and heavily eroded walled plain containing two prominent interior craters — Cassini A and B — giving it a distinctive nested appearance. The eroded rim reflects great age."
+  },
+  {
+    "id": 7,
+    "name": "Eudoxus",
+    "lac_number": "LAC-26",
+    "lac_edition": "1st Ed. Mar 1967",
+    "image_file": "eudoxus_quad_color.jpg",
+    "region_type": "Northern highlands",
+    "notable_features": ["Eudoxus crater", "Montes Caucasus"],
+    "description": "Northern highland terrain east of Mare Serenitatis. Features Eudoxus crater (~67 km), a relatively well-preserved impact structure with a central peak, flanked by the Montes Caucasus range to the west. Part of the heavily cratered highland zone separating the northern maria."
+  },
+  {
+    "id": 8,
+    "name": "Geminus",
+    "lac_number": "LAC-27",
+    "lac_edition": "1st Ed. Jul 1967",
+    "image_file": "geminus_quad_color.jpg",
+    "region_type": "Eastern highlands",
+    "notable_features": ["Geminus crater", "Messala crater"],
+    "description": "Eastern highland region near the lunar limb. Features Geminus crater (~86 km), a well-preserved impact crater with a central peak and terraced inner walls, and the larger, more degraded Messala crater to the north. A classically cratered highland terrain."
+  },
+  {
+    "id": 9,
+    "name": "Seleucus",
+    "lac_number": "LAC-38",
+    "lac_edition": "1st Ed. Mar 1965",
+    "image_file": "seleucus_quad_color.jpg",
+    "region_type": "Oceanus Procellarum — mare",
+    "notable_features": ["Seleucus crater", "Oceanus Procellarum"],
+    "description": "Western Oceanus Procellarum — a broad expanse of basaltic mare plain. Features Seleucus crater (~43 km), a moderately fresh impact crater rising from the smooth mare surface. This region records some of the youngest basalt flows on the near side."
+  },
+  {
+    "id": 10,
+    "name": "Aristarchus",
+    "lac_number": "LAC-39",
+    "lac_edition": "1st Ed. Nov 1963",
+    "image_file": "aristarchus_quad_color.jpg",
+    "region_type": "Oceanus Procellarum — volcanic plateau",
+    "notable_features": ["Aristarchus crater", "Vallis Schröteri (Schröter's Valley)", "Aristarchus Plateau", "Herodotus crater"],
+    "description": "One of the most volcanically active regions on the Moon. Features Aristarchus crater (~40 km), the brightest crater on the near side due to its fresh, high-reflectance ejecta. Adjacent Vallis Schröteri (Schröter's Valley) is the largest sinuous rille on the Moon, winding ~160 km from the Aristarchus Plateau — evidence of ancient lava tube collapse. Repeated transient lunar phenomena have been observed here."
+  },
+  {
+    "id": 11,
+    "name": "Timocharis",
+    "lac_number": "LAC-40",
+    "lac_edition": "1st Ed. Oct 1963",
+    "image_file": "timocharis_quad_color.jpg",
+    "region_type": "Mare Imbrium — mare plain",
+    "notable_features": ["Timocharis crater", "Lambert crater", "Mare Imbrium"],
+    "description": "Central Mare Imbrium — one of the smoothest mare plains on the near side. Features Timocharis crater (~34 km), a relatively fresh Copernican-age impact with a small ray system. The surrounding basalt plains of Mare Imbrium are among the most extensively studied regions in lunar geology."
+  },
+  {
+    "id": 12,
+    "name": "Montes Apenninus",
+    "lac_number": "LAC-41",
+    "lac_edition": "1st Ed. Sep 1963",
+    "image_file": "montes_apenninus_quad_color.jpg",
+    "region_type": "Mountain range — basin rim",
+    "notable_features": ["Montes Apenninus", "Hadley Rille", "Apollo 15 landing site"],
+    "description": "Features the Montes Apenninus, the highest mountain range on the Moon (~5 km above the surrounding mare), forming the southeastern rim of the Imbrium impact basin. Hadley Rille — a prominent sinuous rille — runs along the mountain front. Apollo 15 landed at Hadley-Apennine in July 1971, the first mission to use a lunar roving vehicle. Astronauts collected samples critical to understanding Imbrium basin geology."
+  },
+  {
+    "id": 13,
+    "name": "Mare Serenitatis",
+    "lac_number": "LAC-42",
+    "lac_edition": "1st Ed. Feb 1965",
+    "image_file": "mare_serenitatis_quad_color.jpg",
+    "region_type": "Mare basin",
+    "notable_features": ["Mare Serenitatis", "Taurus-Littrow valley", "Apollo 17 landing site", "Bessel crater"],
+    "description": "'Sea of Serenity' — a large, nearly circular mare basin (~700 km diameter) filled with dark basaltic lava flows of varying ages. Apollo 17 landed in the Taurus-Littrow valley on its southeastern margin in December 1972 — the last crewed lunar landing and the only mission to include a professional geologist (Harrison Schmitt). The mission returned the largest sample collection of any Apollo flight."
+  },
+  {
+    "id": 14,
+    "name": "Macrobius",
+    "lac_number": "LAC-43",
+    "lac_edition": "1st Ed. May 1965",
+    "image_file": "macrobius_quad_color.jpg",
+    "region_type": "Highland/mare boundary",
+    "notable_features": ["Macrobius crater", "Mare Crisium (western margin)"],
+    "description": "Eastern highland/mare boundary region at the western margin of Mare Crisium. Features Macrobius crater (~64 km), a moderately preserved impact structure. The region represents a transition between the ancient highland terrain and the younger basaltic plains of Mare Crisium."
+  },
+  {
+    "id": 15,
+    "name": "Cleomedes",
+    "lac_number": "LAC-44",
+    "lac_edition": "1st Ed. Dec 1965",
+    "image_file": "cleomedes_quad_color.jpg",
+    "region_type": "Northeastern highlands",
+    "notable_features": ["Cleomedes crater", "Mare Marginis"],
+    "description": "Northeastern highland region adjacent to Mare Crisium. Features Cleomedes crater (~126 km), a large, partially degraded walled plain with a flat floor and remnant central ridge. The region shows significant impact overlap characteristic of the ancient highland crust."
+  },
+  {
+    "id": 16,
+    "name": "Hevelius",
+    "lac_number": "LAC-56",
+    "lac_edition": "1st Ed. May 1963",
+    "image_file": "hevelius_quad_color.jpg",
+    "region_type": "Western limb — mare/highland",
+    "notable_features": ["Hevelius crater", "Rimae Hevelius", "Oceanus Procellarum"],
+    "description": "Western limb region where Oceanus Procellarum meets ancient highland terrain. Features Hevelius crater (~106 km), a large walled plain with a complex floor rille system (Rimae Hevelius). The overlapping craters Cavalerius and Lohrmann nearby reflect the heavily impacted history of this limb region."
+  },
+  {
+    "id": 17,
+    "name": "Kepler",
+    "lac_number": "LAC-57",
+    "lac_edition": "2nd Ed. May 1962",
+    "image_file": "kepler_quad_color.jpg",
+    "region_type": "Oceanus Procellarum — mare",
+    "notable_features": ["Kepler crater", "Ray system", "Oceanus Procellarum"],
+    "description": "Central Oceanus Procellarum. Features Kepler crater (~32 km), a young Copernican-age impact crater with a prominent bright ray system extending hundreds of kilometers across the surrounding mare plains. The crater's fresh morphology — terraced walls, small central peak — makes it a textbook example of a well-preserved lunar impact."
+  },
+  {
+    "id": 18,
+    "name": "Copernicus",
+    "lac_number": "LAC-58",
+    "lac_edition": "2nd Ed. Apr 1964",
+    "image_file": "copernicus_quad_color.jpg",
+    "region_type": "Mare/highland boundary — major impact",
+    "notable_features": ["Copernicus crater", "Ray system", "Central peak complex", "Montes Carpatus"],
+    "description": "Features Copernicus crater (~96 km), one of the most scientifically important and visually striking craters on the Moon. Its well-preserved terraced walls, multiple central peaks, and an extensive bright ray system — covering much of the central near side — make it the defining example of a complex impact crater. Approximately 800 million years old (Copernican Period), it defines a major time-stratigraphic boundary in lunar history. Bordered to the north by the Montes Carpatus."
+  },
+  {
+    "id": 19,
+    "name": "Mare Vaporum",
+    "lac_number": "LAC-59",
+    "lac_edition": "2nd Ed. Aug 1966",
+    "image_file": "mare_vaporum_quad_color.jpg",
+    "region_type": "Small mare basin",
+    "notable_features": ["Mare Vaporum", "Rima Hyginus", "Hyginus crater", "Rima Ariadaeus"],
+    "description": "'Sea of Vapors' — a relatively small mare (~245 km across) occupying the center of the near side. The region is geologically notable for Rima Hyginus, a linear rille featuring the collapse pit crater Hyginus, and nearby Rima Ariadaeus, one of the longest linear rilles on the Moon (~220 km). These features record ancient tectonic extension in the lunar crust."
+  },
+  {
+    "id": 20,
+    "name": "Julius Caesar",
+    "lac_number": "LAC-60",
+    "lac_edition": "1st Ed. Sept 1962",
+    "image_file": "julius_caesar_quad_color.jpg",
+    "region_type": "Highland/mare transition",
+    "notable_features": ["Julius Caesar crater", "Mare Tranquillitatis (northern margin)"],
+    "description": "Transition zone between the central highlands and the northern margin of Mare Tranquillitatis. Features Julius Caesar crater (~90 km), a heavily degraded ancient walled plain whose floor has been partially flooded by mare basalt. The region reflects the complex interplay between highland impact history and subsequent volcanic flooding."
+  },
+  {
+    "id": 21,
+    "name": "Taruntius",
+    "lac_number": "LAC-61",
+    "lac_edition": "1st Ed. Feb 1963",
+    "image_file": "taruntius_quad_color.jpg",
+    "region_type": "Mare — concentric crater",
+    "notable_features": ["Taruntius crater", "Mare Fecunditatis", "Mare Tranquillitatis"],
+    "description": "Eastern mare region at the junction of Mare Fecunditatis and Mare Tranquillitatis. Features Taruntius crater (~56 km), a rare concentric crater with a well-defined interior ring — a morphology thought to reflect a shallow subsurface structure or unusual impact mechanics. Scientifically interesting as one of the clearest concentric craters on the near side."
+  },
+  {
+    "id": 22,
+    "name": "Mare Undarum",
+    "lac_number": "LAC-62",
+    "lac_edition": "1st Ed. Feb 1964",
+    "image_file": "mare_undarum_quad_color.jpg",
+    "region_type": "Small mare — irregular",
+    "notable_features": ["Mare Undarum", "Mare Spumans (adjacent)"],
+    "description": "'Sea of Waves' — a small, irregular mare region east of Mare Crisium, partially flooded with basalt and heavily interpenetrated by highland terrain. One of the less prominent maria on the near side, representing incomplete flooding of a highland region."
+  },
+  {
+    "id": 23,
+    "name": "Grimaldi",
+    "lac_number": "LAC-74",
+    "lac_edition": "1st Ed. Apr 1962",
+    "image_file": "grimaldi_quad_color.jpg",
+    "region_type": "Western limb — ancient basin",
+    "notable_features": ["Grimaldi basin", "Riccioli crater"],
+    "description": "Western limb region featuring Grimaldi basin (~220 km), one of the oldest and darkest areas on the entire Moon. Its extremely low-reflectance basalt fill — among the darkest materials on the near side — makes it a prominent naked-eye dark spot. A pre-Nectarian impact basin, Grimaldi records some of the earliest lunar history. Nearby Riccioli crater shows similarly dark floor materials."
+  },
+  {
+    "id": 24,
+    "name": "Letronne",
+    "lac_number": "LAC-75",
+    "lac_edition": "2nd Ed. Jun 1962",
+    "image_file": "letronne_quad_color.jpg",
+    "region_type": "Southern Oceanus Procellarum — flooded crater",
+    "notable_features": ["Letronne crater", "Oceanus Procellarum"],
+    "description": "Southern Oceanus Procellarum. Features Letronne crater (~116 km), a striking example of a mare-flooded impact structure whose northern wall has been almost completely submerged by lava flows, leaving a prominent open bay shape on the mare surface. The surviving southern arc of the rim stands in sharp contrast to the smooth surrounding plains."
+  },
+  {
+    "id": 25,
+    "name": "Montes Riphaeus",
+    "lac_number": "LAC-76",
+    "lac_edition": "2nd Ed. Apr 1964",
+    "image_file": "riphaeus_mountains_quad_color.jpg",
+    "region_type": "Oceanus Procellarum — isolated range",
+    "notable_features": ["Montes Riphaeus", "Oceanus Procellarum"],
+    "description": "Features the Montes Riphaeus (Riphaeus Mountains), a small isolated mountain range rising from the smooth basalt plains of Oceanus Procellarum. These mountains are remnants of ancient highland terrain that were not completely submerged by lava flooding — an island of pre-mare crust surrounded by volcanic plains. Note: LAC-76 official chart name is 'Montes Riphaeus'."
+  },
+  {
+    "id": 26,
+    "name": "Ptolemaeus",
+    "lac_number": "LAC-77",
+    "lac_edition": "1st Ed. May 1963",
+    "image_file": "ptolemaeus_quad_color.jpg",
+    "region_type": "Central highlands — crater chain",
+    "notable_features": ["Ptolemaeus crater", "Alphonsus crater", "Arzachel crater", "Ranger 9 impact site"],
+    "description": "Central near-side highlands featuring the magnificent Ptolemaeus–Alphonsus–Arzachel crater chain — three large overlapping craters showing a classic sequence of degradation. Ptolemaeus (~153 km) is the oldest and most eroded; Alphonsus (~118 km) features floor rilles and dark halo craters indicating volcanic outgassing; Arzachel (~97 km) is the youngest and most pristine with a prominent central peak. NASA's Ranger 9 spacecraft impacted in Alphonsus in March 1965, returning close-up photographs before impact."
+  },
+  {
+    "id": 27,
+    "name": "Theophilus",
+    "lac_number": "LAC-78",
+    "lac_edition": "1st Ed. Mar 1963",
+    "image_file": "theophilus_quad_color.jpg",
+    "region_type": "Mare Nectaris boundary — crater chain",
+    "notable_features": ["Theophilus crater", "Cyrillus crater", "Catharina crater", "Mare Nectaris"],
+    "description": "Features the Theophilus–Cyrillus–Catharina trio at the western rim of Mare Nectaris — a textbook sequence illustrating progressive crater degradation. Theophilus (~100 km) is the youngest: sharp walls, prominent central peak complex, and terraced interior. Cyrillus is older and more eroded; Catharina is the most ancient and heavily degraded. Together they span hundreds of millions of years of impact history in a single field of view."
+  },
+  {
+    "id": 28,
+    "name": "Colombo",
+    "lac_number": "LAC-79",
+    "lac_edition": "1st Ed. Apr 1963",
+    "image_file": "colombo_quad_color.jpg",
+    "region_type": "Mare Fecunditatis boundary",
+    "notable_features": ["Colombo crater", "Mare Fecunditatis"],
+    "description": "Eastern highland/mare boundary region at the margin of Mare Fecunditatis. Features Colombo crater (~76 km), a moderately degraded walled plain. The region records the transition between the ancient highland crust and the basalt-filled 'Sea of Fertility' basin."
+  },
+  {
+    "id": 29,
+    "name": "Langrenus",
+    "lac_number": "LAC-80",
+    "lac_edition": "1st Ed. Mar 1964",
+    "image_file": "langrenus_quad_color.jpg",
+    "region_type": "Mare Fecunditatis — major crater",
+    "notable_features": ["Langrenus crater", "Mare Fecunditatis"],
+    "description": "Features Langrenus crater (~132 km), one of the most visually impressive craters on the eastern near side. A well-preserved Eratosthenian-age impact with terraced inner walls, a central peak complex, and a relatively flat floor. Located on the eastern rim of Mare Fecunditatis, it is one of the first prominent features visible to the naked eye near the eastern limb."
+  },
+  {
+    "id": 30,
+    "name": "Byrgius",
+    "lac_number": "LAC-92",
+    "lac_edition": "1st Ed. Feb 1966",
+    "image_file": "byrgius_quad_color.jpg",
+    "region_type": "Southwestern highlands — limb",
+    "notable_features": ["Byrgius crater", "Byrgius A ray system"],
+    "description": "Southwestern highland region near the lunar limb. Features Byrgius crater (~87 km), an ancient degraded walled plain. The small satellite crater Byrgius A, situated on the main crater's rim, is the source of a prominent bright ray system extending across the surrounding terrain — one of the most ray-intensive craters relative to its size on the near side."
+  },
+  {
+    "id": 31,
+    "name": "Mare Humorum",
+    "lac_number": "LAC-93",
+    "lac_edition": "1st Ed. Jun 1966",
+    "image_file": "mare_humorum_quad_color.jpg",
+    "region_type": "Mare basin — circular",
+    "notable_features": ["Mare Humorum", "Gassendi crater", "Rimae Gassendi"],
+    "description": "'Sea of Moisture' — a roughly circular mare basin (~389 km diameter) representing a well-defined ancient impact basin filled with basalt. The northern rim is marked by Gassendi crater (~110 km), a prominent flooded walled plain with an extraordinary network of floor rilles (Rimae Gassendi). Gassendi was seriously considered as an Apollo landing site due to its scientific complexity."
+  },
+  {
+    "id": 32,
+    "name": "Pitatus",
+    "lac_number": "LAC-94",
+    "lac_edition": "1st Ed. May 1964",
+    "image_file": "pitatus_quad_color.jpg",
+    "region_type": "Southern highland/mare boundary — flooded crater",
+    "notable_features": ["Pitatus crater", "Rimae Pitatus", "Mare Nubium"],
+    "description": "Southern highland/mare boundary. Features Pitatus crater (~97 km), a flooded walled plain at the southern edge of Mare Nubium whose floor is covered with a network of concentric and radial rilles (Rimae Pitatus). The partially submerged northern wall merges seamlessly with the mare surface — evidence of lava resurfacing after impact."
+  },
+  {
+    "id": 33,
+    "name": "Purbach",
+    "lac_number": "LAC-95",
+    "lac_edition": "1st Ed. Dec 1964",
+    "image_file": "purbach_quad_color.jpg",
+    "region_type": "Central southern highlands",
+    "notable_features": ["Purbach crater", "Regiomontanus crater", "Walter crater"],
+    "description": "Central southern highlands — a densely cratered ancient terrain. Features Purbach crater (~118 km) alongside Regiomontanus and Walter, three large overlapping pre-Nectarian walled plains recording the earliest period of intense lunar bombardment. The region exemplifies the heavily saturated highland crust."
+  },
+  {
+    "id": 34,
+    "name": "Rupes Altai",
+    "lac_number": "LAC-96",
+    "lac_edition": "1st Ed. Apr 1965",
+    "image_file": "rupes_altai_quad_color.jpg",
+    "region_type": "Nectaris basin — scarp",
+    "notable_features": ["Rupes Altai (Altai Scarp)", "Piccolomini crater", "Mare Nectaris (northern margin)"],
+    "description": "Features the Rupes Altai (Altai Scarp), a sweeping curved escarpment approximately 480 km long and up to 3 km high — one of the most dramatic tectonic features on the near side. It represents an ancient fault scarp forming the inner ring of the Nectaris impact basin. Piccolomini crater (~88 km) sits prominently at the southern terminus of the scarp. The region provides a spectacular cross-section through basin ring tectonics."
+  },
+  {
+    "id": 35,
+    "name": "Fracastorius",
+    "lac_number": "LAC-97",
+    "lac_edition": "1st Ed. May 1965",
+    "image_file": "fracastorius_quad_color.jpg",
+    "region_type": "Mare Nectaris boundary — flooded crater",
+    "notable_features": ["Fracastorius crater", "Mare Nectaris"],
+    "description": "Features Fracastorius crater (~124 km) at the southern rim of Mare Nectaris — a classic mare-flooded impact structure. Its northern wall has been almost entirely erased by lava intrusion from the Nectaris basin, leaving a broad open arc that frames the southern shore of the 'Sea of Nectar'. The floor displays subtle wrinkle ridges indicative of lava subsidence."
+  },
+  {
+    "id": 36,
+    "name": "Petavius",
+    "lac_number": "LAC-98",
+    "lac_edition": "1st Ed. May 1966",
+    "image_file": "petavius_quad_color.jpg",
+    "region_type": "Eastern highlands — major crater",
+    "notable_features": ["Petavius crater", "Rima Petavius", "Wrottesley crater"],
+    "description": "Features Petavius crater (~177 km), one of the largest and most complex impact craters on the near side. Its floor displays a prominent wide radial rille (Rima Petavius) extending from the central peak complex to the crater wall — one of the most striking floor rilles on the Moon. The central peaks rise ~3 km above the floor. A visually compelling and scientifically rich crater."
+  },
+  {
+    "id": 37,
+    "name": "Schickard",
+    "lac_number": "LAC-110",
+    "lac_edition": "1st Ed. Sep 1967",
+    "image_file": "schickard_quad_color.jpg",
+    "region_type": "Southwestern highlands — large crater",
+    "notable_features": ["Schickard crater", "Multiple lava flooding episodes"],
+    "description": "Southwestern highland region featuring Schickard crater (~227 km), one of the largest impact craters on the near side. Its floor shows a geologically complex history of multiple lava flooding events of varying ages, visible as distinct zones of different albedo — lighter highland material, partially flooded patches, and darker mare basalt — making it an unusually well-exposed record of volcanic resurfacing."
+  },
+  {
+    "id": 38,
+    "name": "Wilhelm",
+    "lac_number": "LAC-111",
+    "lac_edition": "1st Ed. Oct 1967",
+    "image_file": "wilhelm_quad_color.jpg",
+    "region_type": "Southern highlands",
+    "notable_features": ["Wilhelm crater", "Longomontanus crater", "Heinsius crater"],
+    "description": "Southern highland region featuring Wilhelm crater (~106 km), a moderately degraded walled plain in a zone of ancient, heavily overlapping highland craters. Longomontanus crater to the west is a similarly well-preserved Nectarian-age structure. The region records dense impact saturation of the early lunar crust."
+  },
+  {
+    "id": 39,
+    "name": "Tycho",
+    "lac_number": "LAC-112",
+    "lac_edition": "1st Ed. Jul 1967",
+    "image_file": "tycho_quad_color.jpg",
+    "region_type": "Southern highlands — major ray crater",
+    "notable_features": ["Tycho crater", "Ray system", "Central peak", "Surveyor 7 landing site"],
+    "description": "Features Tycho crater (~85 km), one of the most prominent impact craters in the solar system. Its vast bright ray system extends across virtually the entire lunar near side — rays visible even to the naked eye during full Moon. A geologically young Copernican-age crater (~108 million years old), Tycho has a well-preserved morphology with terraced walls and a prominent central peak. Surveyor 7 landed just north of the rim in January 1968, returning the first close-up images of the southern highlands."
+  },
+  {
+    "id": 40,
+    "name": "Maurolycus",
+    "lac_number": "LAC-113",
+    "lac_edition": "1st Ed. Dec 1966",
+    "image_file": "maurolycus_quad_color.jpg",
+    "region_type": "Southern highlands — saturated terrain",
+    "notable_features": ["Maurolycus crater", "Barocius crater", "Stöfler crater"],
+    "description": "One of the most densely cratered regions on the near side — a testament to the ancient, heavily bombarded highland crust. Maurolycus crater (~114 km) is partially overprinted by neighboring Barocius and the very large Stöfler crater (~126 km). This quadrangle offers one of the most dramatic illustrations of crater saturation and the cumulative record of early lunar bombardment."
+  },
+  {
+    "id": 41,
+    "name": "Rheita",
+    "lac_number": "LAC-114",
+    "lac_edition": "1st Ed. Oct 1966",
+    "image_file": "rheita_quad_color.jpg",
+    "region_type": "Southeastern highlands — crater chain/valley",
+    "notable_features": ["Vallis Rheita", "Rheita crater", "Young crater"],
+    "description": "Southeastern highland region featuring Vallis Rheita, one of the longest crater chains on the Moon (~445 km). This striking linear feature is interpreted as a secondary impact chain formed by ejecta from the Nectaris basin impact event — a row of coalesced craters aligned radially from Nectaris. It provides direct evidence for basin-forming impact dynamics."
+  },
+  {
+    "id": 42,
+    "name": "Schiller",
+    "lac_number": "LAC-125",
+    "lac_edition": "1st Ed. Oct 1967",
+    "image_file": "schiller_quad_color.jpg",
+    "region_type": "Southwestern highlands — elongated crater",
+    "notable_features": ["Schiller crater"],
+    "description": "Southwestern highland region featuring Schiller crater (~179 × 71 km), one of the most distinctively elongated large craters on the Moon. Its extreme length-to-width ratio suggests either a very low-angle oblique impact or the coalescence of two overlapping craters during the ancient bombardment period. The floor has been partially flooded with dark mare basalt, adding to its unusual appearance."
+  },
+  {
+    "id": 43,
+    "name": "Clavius",
+    "lac_number": "LAC-126",
+    "lac_edition": "1st Ed. Oct 1967",
+    "image_file": "clavius_quad_color.jpg",
+    "region_type": "Southern highlands — giant crater",
+    "notable_features": ["Clavius crater", "Crater chain (Rutherford, Porter, etc.)", "Blancanus crater"],
+    "description": "Features Clavius crater (~225 km), one of the largest impact craters on the near side and among the largest on the Moon. Its floor displays a distinctive curved chain of progressively smaller craters — Rutherford, Porter, and several unnamed satellites — formed by later impacts. The sheer scale of Clavius makes it visible to the naked eye. It is also famous as the fictional site of a lunar base in Stanley Kubrick's 2001: A Space Odyssey."
+  },
+  {
+    "id": 44,
+    "name": "Hommel",
+    "lac_number": "LAC-127",
+    "lac_edition": "1st Ed. Nov 1967",
+    "image_file": "hommel_quad_color.jpg",
+    "region_type": "Southern highlands — near polar",
+    "notable_features": ["Hommel crater", "Pitiscus crater", "Vlacq crater"],
+    "description": "Southern highland region approaching the lunar south pole, featuring heavily overlapping ancient impact craters in one of the most densely packed terrains on the near side. Hommel crater (~125 km) is substantially overprinted by Hommel C and other satellite impacts. The region — along with neighbors Pitiscus and Vlacq — represents some of the oldest exposed crust accessible on the near side."
+  }
+]
