@@ -282,12 +282,33 @@ footer a:focus {
   text-align: center;
 }
 
+#modal-img-link {
+  display: block;
+}
+
 #modal-img {
   max-width: 100%;
   height: auto;
   border-radius: 2px;
   display: block;
   margin: 0 auto;
+  cursor: zoom-in;
+  transition: outline-color 0.15s;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+#modal-img-link:hover #modal-img,
+#modal-img-link:focus-visible #modal-img {
+  outline-color: var(--glow-cyan);
+}
+
+.modal-image-hint {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  text-align: center;
 }
 
 /* --- Focus styles (accessibility) --- */

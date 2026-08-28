@@ -187,6 +187,7 @@
   const modal      = document.getElementById('quad-modal');
   const titleEl    = document.getElementById('modal-title');
   const imgEl      = document.getElementById('modal-img');
+  const linkEl     = document.getElementById('modal-img-link');
   const closeBtn   = modal && modal.querySelector('.modal-close');
   const backdrop   = modal && modal.querySelector('.modal-backdrop');
   const areas      = Array.from(document.querySelectorAll('map[name="image-map"] area'));
@@ -199,6 +200,7 @@
     titleEl.textContent   = name;
     imgEl.src             = src;
     imgEl.alt             = name + ' — USGS geological map quadrangle';
+    if (linkEl) linkEl.href = src;
     modal.removeAttribute('hidden');
     document.body.style.overflow = 'hidden';
     closeBtn.focus();
@@ -207,6 +209,7 @@
   function closeModal() {
     modal.setAttribute('hidden', '');
     imgEl.src                    = '';
+    if (linkEl) linkEl.removeAttribute('href');
     document.body.style.overflow = '';
     if (previousFocus) previousFocus.focus();
   }
