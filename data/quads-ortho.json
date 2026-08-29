@@ -1,0 +1,486 @@
+[
+ {
+  "name": "J. Herschel",
+  "href": "images/quads/j_herschel_quad_color.jpg",
+  "lac": "LAC-11",
+  "box": {
+   "latS": 48,
+   "latN": 64,
+   "lonW": -45.0,
+   "lonE": -15.0
+  }
+ },
+ {
+  "name": "Plato",
+  "href": "images/quads/plato_quad_color.jpg",
+  "lac": "LAC-12",
+  "box": {
+   "latS": 48,
+   "latN": 64,
+   "lonW": -15.0,
+   "lonE": 15.0
+  }
+ },
+ {
+  "name": "Aristoteles",
+  "href": "images/quads/aristoteles_quad_color.jpg",
+  "lac": "LAC-13",
+  "box": {
+   "latS": 48,
+   "latN": 64,
+   "lonW": 15.0,
+   "lonE": 45.0
+  }
+ },
+ {
+  "name": "Rumker",
+  "href": "images/quads/rumker_quad_color.jpg",
+  "lac": "LAC-23",
+  "box": {
+   "latS": 32,
+   "latN": 48,
+   "lonW": -60.0,
+   "lonE": -36.0
+  }
+ },
+ {
+  "name": "Sinus Iridium",
+  "href": "images/quads/sinus_iridium_quad_color.jpg",
+  "lac": "LAC-24",
+  "box": {
+   "latS": 32,
+   "latN": 48,
+   "lonW": -36.0,
+   "lonE": -12.0
+  }
+ },
+ {
+  "name": "Cassini",
+  "href": "images/quads/cassini_quad_color.jpg",
+  "lac": "LAC-25",
+  "box": {
+   "latS": 32,
+   "latN": 48,
+   "lonW": -12.0,
+   "lonE": 12.0
+  }
+ },
+ {
+  "name": "Eudoxus",
+  "href": "images/quads/eudoxus_quad_color.jpg",
+  "lac": "LAC-26",
+  "box": {
+   "latS": 32,
+   "latN": 48,
+   "lonW": 12.0,
+   "lonE": 36.0
+  }
+ },
+ {
+  "name": "Geminus",
+  "href": "images/quads/geminus_quad_color.jpg",
+  "lac": "LAC-27",
+  "box": {
+   "latS": 32,
+   "latN": 48,
+   "lonW": 36.0,
+   "lonE": 60.0
+  }
+ },
+ {
+  "name": "Seleucus",
+  "href": "images/quads/seleucus_quad_color.jpg",
+  "lac": "LAC-38",
+  "box": {
+   "latS": 16,
+   "latN": 32,
+   "lonW": -70.0,
+   "lonE": -50.0
+  }
+ },
+ {
+  "name": "Aristarchus",
+  "href": "images/quads/aristarchus_quad_color.jpg",
+  "lac": "LAC-39",
+  "box": {
+   "latS": 16,
+   "latN": 32,
+   "lonW": -50.0,
+   "lonE": -30.0
+  }
+ },
+ {
+  "name": "Timocharis",
+  "href": "images/quads/timocharis_quad_color.jpg",
+  "lac": "LAC-40",
+  "box": {
+   "latS": 16,
+   "latN": 32,
+   "lonW": -30.0,
+   "lonE": -10.0
+  }
+ },
+ {
+  "name": "Montes Apenninus",
+  "href": "images/quads/montes_apenninus_quad_color.jpg",
+  "lac": "LAC-41",
+  "box": {
+   "latS": 16,
+   "latN": 32,
+   "lonW": -10.0,
+   "lonE": 10.0
+  }
+ },
+ {
+  "name": "Mare Serenitatis",
+  "href": "images/quads/mare_serenitatis_quad_color.jpg",
+  "lac": "LAC-42",
+  "box": {
+   "latS": 16,
+   "latN": 32,
+   "lonW": 10.0,
+   "lonE": 30.0
+  }
+ },
+ {
+  "name": "Macrobius",
+  "href": "images/quads/macrobius_quad_color.jpg",
+  "lac": "LAC-43",
+  "box": {
+   "latS": 16,
+   "latN": 32,
+   "lonW": 30.0,
+   "lonE": 50.0
+  }
+ },
+ {
+  "name": "Cleomedes",
+  "href": "images/quads/cleomedes_quad_color.jpg",
+  "lac": "LAC-44",
+  "box": {
+   "latS": 16,
+   "latN": 32,
+   "lonW": 50.0,
+   "lonE": 70.0
+  }
+ },
+ {
+  "name": "Hevelius",
+  "href": "images/quads/hevelius_quad_color.jpg",
+  "lac": "LAC-56",
+  "box": {
+   "latS": 0,
+   "latN": 16,
+   "lonW": -70.0,
+   "lonE": -50.0
+  }
+ },
+ {
+  "name": "Kepler",
+  "href": "images/quads/kepler_quad_color.jpg",
+  "lac": "LAC-57",
+  "box": {
+   "latS": 0,
+   "latN": 16,
+   "lonW": -50.0,
+   "lonE": -30.0
+  }
+ },
+ {
+  "name": "Copernicus",
+  "href": "images/quads/copernicus_quad_color.jpg",
+  "lac": "LAC-58",
+  "box": {
+   "latS": 0,
+   "latN": 16,
+   "lonW": -30.0,
+   "lonE": -10.0
+  }
+ },
+ {
+  "name": "Mare Vaporum",
+  "href": "images/quads/mare_vaporum_quad_color.jpg",
+  "lac": "LAC-59",
+  "box": {
+   "latS": 0,
+   "latN": 16,
+   "lonW": -10.0,
+   "lonE": 10.0
+  }
+ },
+ {
+  "name": "Julius Caesar",
+  "href": "images/quads/julius_caesar_quad_color.jpg",
+  "lac": "LAC-60",
+  "box": {
+   "latS": 0,
+   "latN": 16,
+   "lonW": 10.0,
+   "lonE": 30.0
+  }
+ },
+ {
+  "name": "Taruntius",
+  "href": "images/quads/taruntius_quad_color.jpg",
+  "lac": "LAC-61",
+  "box": {
+   "latS": 0,
+   "latN": 16,
+   "lonW": 30.0,
+   "lonE": 50.0
+  }
+ },
+ {
+  "name": "Mare Undarum",
+  "href": "images/quads/mare_undarum_quad_color.jpg",
+  "lac": "LAC-62",
+  "box": {
+   "latS": 0,
+   "latN": 16,
+   "lonW": 50.0,
+   "lonE": 70.0
+  }
+ },
+ {
+  "name": "Grimaldi",
+  "href": "images/quads/grimaldi_quad_color.jpg",
+  "lac": "LAC-74",
+  "box": {
+   "latS": -16,
+   "latN": 0,
+   "lonW": -70.0,
+   "lonE": -50.0
+  }
+ },
+ {
+  "name": "Letronne",
+  "href": "images/quads/letronne_quad_color.jpg",
+  "lac": "LAC-75",
+  "box": {
+   "latS": -16,
+   "latN": 0,
+   "lonW": -50.0,
+   "lonE": -30.0
+  }
+ },
+ {
+  "name": "Montes Riphaeus",
+  "href": "images/quads/riphaeus_mountains_quad_color.jpg",
+  "lac": "LAC-76",
+  "box": {
+   "latS": -16,
+   "latN": 0,
+   "lonW": -30.0,
+   "lonE": -10.0
+  }
+ },
+ {
+  "name": "Ptolemaeus",
+  "href": "images/quads/ptolemaeus_quad_color.jpg",
+  "lac": "LAC-77",
+  "box": {
+   "latS": -16,
+   "latN": 0,
+   "lonW": -10.0,
+   "lonE": 10.0
+  }
+ },
+ {
+  "name": "Theophilus",
+  "href": "images/quads/theophilus_quad_color.jpg",
+  "lac": "LAC-78",
+  "box": {
+   "latS": -16,
+   "latN": 0,
+   "lonW": 10.0,
+   "lonE": 30.0
+  }
+ },
+ {
+  "name": "Colombo",
+  "href": "images/quads/colombo_quad_color.jpg",
+  "lac": "LAC-79",
+  "box": {
+   "latS": -16,
+   "latN": 0,
+   "lonW": 30.0,
+   "lonE": 50.0
+  }
+ },
+ {
+  "name": "Langrenus",
+  "href": "images/quads/langrenus_quad_color.jpg",
+  "lac": "LAC-80",
+  "box": {
+   "latS": -16,
+   "latN": 0,
+   "lonW": 50.0,
+   "lonE": 70.0
+  }
+ },
+ {
+  "name": "Byrgius",
+  "href": "images/quads/byrgius_quad_color.jpg",
+  "lac": "LAC-92",
+  "box": {
+   "latS": -32,
+   "latN": -16,
+   "lonW": -70.0,
+   "lonE": -50.0
+  }
+ },
+ {
+  "name": "Mare Humorum",
+  "href": "images/quads/mare_humorum_quad_color.jpg",
+  "lac": "LAC-93",
+  "box": {
+   "latS": -32,
+   "latN": -16,
+   "lonW": -50.0,
+   "lonE": -30.0
+  }
+ },
+ {
+  "name": "Pitatus",
+  "href": "images/quads/pitatus_quad_color.jpg",
+  "lac": "LAC-94",
+  "box": {
+   "latS": -32,
+   "latN": -16,
+   "lonW": -30.0,
+   "lonE": -10.0
+  }
+ },
+ {
+  "name": "Purbach",
+  "href": "images/quads/purbach_quad_color.jpg",
+  "lac": "LAC-95",
+  "box": {
+   "latS": -32,
+   "latN": -16,
+   "lonW": -10.0,
+   "lonE": 10.0
+  }
+ },
+ {
+  "name": "Rupes Altai",
+  "href": "images/quads/rupes_altai_quad_color.jpg",
+  "lac": "LAC-96",
+  "box": {
+   "latS": -32,
+   "latN": -16,
+   "lonW": 10.0,
+   "lonE": 30.0
+  }
+ },
+ {
+  "name": "Fracastorius",
+  "href": "images/quads/fracastorius_quad_color.jpg",
+  "lac": "LAC-97",
+  "box": {
+   "latS": -32,
+   "latN": -16,
+   "lonW": 30.0,
+   "lonE": 50.0
+  }
+ },
+ {
+  "name": "Petavius",
+  "href": "images/quads/petavius_quad_color.jpg",
+  "lac": "LAC-98",
+  "box": {
+   "latS": -32,
+   "latN": -16,
+   "lonW": 50.0,
+   "lonE": 70.0
+  }
+ },
+ {
+  "name": "Schickard",
+  "href": "images/quads/schickard_quad_color.jpg",
+  "lac": "LAC-110",
+  "box": {
+   "latS": -48,
+   "latN": -32,
+   "lonW": -60.0,
+   "lonE": -36.0
+  }
+ },
+ {
+  "name": "Wilhelm",
+  "href": "images/quads/wilhelm_quad_color.jpg",
+  "lac": "LAC-111",
+  "box": {
+   "latS": -48,
+   "latN": -32,
+   "lonW": -36.0,
+   "lonE": -12.0
+  }
+ },
+ {
+  "name": "Tycho",
+  "href": "images/quads/tycho_quad_color.jpg",
+  "lac": "LAC-112",
+  "box": {
+   "latS": -48,
+   "latN": -32,
+   "lonW": -12.0,
+   "lonE": 12.0
+  }
+ },
+ {
+  "name": "Maurolycus",
+  "href": "images/quads/maurolycus_quad_color.jpg",
+  "lac": "LAC-113",
+  "box": {
+   "latS": -48,
+   "latN": -32,
+   "lonW": 12.0,
+   "lonE": 36.0
+  }
+ },
+ {
+  "name": "Rheita",
+  "href": "images/quads/rheita_quad_color.jpg",
+  "lac": "LAC-114",
+  "box": {
+   "latS": -48,
+   "latN": -32,
+   "lonW": 36.0,
+   "lonE": 60.0
+  }
+ },
+ {
+  "name": "Schiller",
+  "href": "images/quads/schiller_quad_color.jpg",
+  "lac": "LAC-125",
+  "box": {
+   "latS": -64,
+   "latN": -48,
+   "lonW": -45.0,
+   "lonE": -15.0
+  }
+ },
+ {
+  "name": "Clavius",
+  "href": "images/quads/clavius_quad_color.jpg",
+  "lac": "LAC-126",
+  "box": {
+   "latS": -64,
+   "latN": -48,
+   "lonW": -15.0,
+   "lonE": 15.0
+  }
+ },
+ {
+  "name": "Hommel",
+  "href": "images/quads/hommel_quad_color.jpg",
+  "lac": "LAC-127",
+  "box": {
+   "latS": -64,
+   "latN": -48,
+   "lonW": 15.0,
+   "lonE": 45.0
+  }
+ }
+]
